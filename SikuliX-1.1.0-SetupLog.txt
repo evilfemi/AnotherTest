@@ -1,0 +1,199 @@
+[debug (8/16/16 4:49:43 PM)] Debug: setLogFile: C:\Users\femisimon\Downloads\SikuliX-1.1.0-SetupLog.txt
+[debug (8/16/16 4:49:43 PM)] RunSetup: ... starting with no args given
+[debug (8/16/16 4:49:43 PM)] RunSetup: Setup: 1.1.0 2015-10-06_17:22 in folder:
+C:\Users\femisimon\Downloads
+[debug (8/16/16 4:49:43 PM)] RunSetup: RunningSystem: Windows 6.3
+[debug (8/16/16 4:49:43 PM)] RunSetup: parent of jar/classes: C:\Users\femisimon\Downloads
+[debug (8/16/16 4:49:43 PM)] RunSetup: RunningJava: Java 8 (amd64) 1.8.0_101-b13
+[debug (8/16/16 4:49:43 PM)] init user preferences
+[debug (8/16/16 4:49:55 PM)] RunSetup: 
+popAsk: --------------------
+The following file(s) will be downloaded to
+C:\Users\femisimon\Downloads
+--- Native support libraries for Windows (sikulixlibs...)
+--- Package 1 ---
+sikulixsetupIDE-1.1.0-forsetup.jar (IDE/Scripting)
+sikulixsetupAPI-1.1.0-forsetup.jar (Java API)
+ - with Jython
+--- Package 2 ---
+sikulixsetupAPI-1.1.0-forsetup.jar (done in package 1)
+--- Additions ---
+tessdata-eng (Tesseract)
+Only click NO, if you want to terminate setup now!
+Click YES even if you want to use local copies in Downloads!
+--------------------
+[debug (8/16/16 4:50:01 PM)] FileManager: Downloading sikulixlibswin-1.1.0.jar having 10577 KB
+[debug (8/16/16 4:50:06 PM)] FileManager: downloaded 10577 KB to:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads_201510061722\sikulixlibswin-1.1.0.jar
+[debug (8/16/16 4:50:06 PM)] FileManager: download time: 4
+[debug (8/16/16 4:50:09 PM)] RunSetup: Copied from Downloads: sikulixlibswin
+[debug (8/16/16 4:50:09 PM)] FileManager: resetFolder:
+C:\Users\femisimon\Downloads\SetupStuff\sikulixlibs\windows
+jar:file:/C:/Users/femisimon/Downloads/sikulixlibswin.jar
+[debug (8/16/16 4:50:10 PM)] FileManager: Downloading sikulixsetupAPI-1.1.0-forsetup.jar having 2083 KB
+[debug (8/16/16 4:50:12 PM)] FileManager: downloaded 2083 KB to:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads_201510061722\sikulixsetupAPI-1.1.0-forsetup.jar
+[debug (8/16/16 4:50:12 PM)] FileManager: download time: 1
+[debug (8/16/16 4:50:15 PM)] RunSetup: Copied from Downloads: sikulixapi
+[debug (8/16/16 4:50:15 PM)] FileManager: resetFolder:
+C:\Users\femisimon\Downloads\SetupStuff\Lib
+jar:file:/C:/Users/femisimon/Downloads/sikulixapi.jar
+[debug (8/16/16 4:50:16 PM)] FileManager: Downloading sikulixsetupIDE-1.1.0-forsetup.jar having 3858 KB
+[debug (8/16/16 4:50:18 PM)] FileManager: downloaded 3858 KB to:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads_201510061722\sikulixsetupIDE-1.1.0-forsetup.jar
+[debug (8/16/16 4:50:18 PM)] FileManager: download time: 1
+[debug (8/16/16 4:50:21 PM)] RunSetup: Copied from Downloads: sikulix
+[debug (8/16/16 4:50:21 PM)] RunSetup: 
+popAsk: --------------------
+If you click YES, you will get Jython version 2.7.0 (recommended)
+... but there is an issue with some rare UTF-8/Unicode situations,
+that usually appear on startup with UTF-8 ccharacters
+somewhere in the system environment
+If you encounter such problems with Jython 2.7.0
+run setup again and
+click NO to get Jython 2.5.4rc1
+--------------------
+[debug (8/16/16 4:50:40 PM)] FileManager: Downloading jython-standalone-2.7.0.jar having 36154 KB
+[debug (8/16/16 4:50:41 PM)] FileManager: downloaded 36154 KB to:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\jython-standalone-2.7.0.jar
+[debug (8/16/16 4:50:41 PM)] FileManager: download time: 0
+[debug (8/16/16 4:50:44 PM)] RunSetup: Copied from Downloads: Jython
+[debug (8/16/16 4:50:44 PM)] FileManager: Downloading tesseract-ocr-3.02.eng.tar.gz with unknown size
+[debug (8/16/16 4:50:45 PM)] FileManager: downloaded 12344 KB to:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tesseract-ocr-3.02.eng.tar.gz
+[debug (8/16/16 4:50:45 PM)] FileManager: download time: 0
+[debug (8/16/16 4:50:48 PM)] RunSetup: downloaded: tessdata-eng
+[debug (8/16/16 4:50:48 PM)] RunSetup: trying to extract from: tesseract-ocr-3.02.eng.tar.gz
+[debug (8/16/16 4:50:48 PM)] RunSetup: preparing the tessdata stuff in:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tessdata-eng
+[debug (8/16/16 4:50:48 PM)] FileManager: resetFolder:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tessdata-eng
+[debug (8/16/16 4:50:48 PM)] FileManager: deleteFileOrFolder:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tesseract-ocr
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: resourceList: enter
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixtessdata
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: resourceList: having jar: jar:file:/C:/Users/femisimon/Downloads/sikulixsetup-1.1.0.jar!/sikulixtessdata
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: files exported: 21 from: sikulixtessdata to:
+ C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tessdata-eng
+[debug (8/16/16 4:50:48 PM)] RunSetup: finally preparing sikulixtessdata.jar
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: addToClasspath:
+file:/C:/Users/femisimon/AppData/Roaming/Sikulix/SikulixDownloads/
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: resourceList: enter
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /tessdata-eng
+[debug (8/16/16 4:50:48 PM)] RunTimeSETUP: resourceList: having folder: C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tessdata-eng
+[debug (8/16/16 4:50:48 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (8/16/16 4:50:48 PM)] FileManager: buildJar: adding tessdata-eng at sikulixtessdata
+[debug (8/16/16 4:50:51 PM)] FileManager: buildJar: completed
+[debug (8/16/16 4:50:51 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixtessdata.jar
+[debug (8/16/16 4:50:51 PM)] FileManager: deleteFileOrFolder:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixDownloads\tessdata-eng
+[debug (8/16/16 4:50:51 PM)] RunSetup: Download ended
+[debug (8/16/16 4:50:51 PM)] RunSetup: Downloads for selected options:
+sikulixlibswin-1.1.0.jar sikulixsetupIDE-1.1.0-forsetup.jar sikulixsetupAPI-1.1.0-forsetup.jar jython-standalone-2.7.0.jar tessdata-eng 
+[debug (8/16/16 4:50:51 PM)] RunSetup: adding needed stuff to sikulixapi.jar
+[debug (8/16/16 4:50:51 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (8/16/16 4:50:51 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (8/16/16 4:50:51 PM)] FileManager: buildJar: adding: sikulixtessdata.jar
+[debug (8/16/16 4:50:53 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (8/16/16 4:50:55 PM)] FileManager: buildJar: adding sikulixcontent at sikulixlibswin
+[debug (8/16/16 4:50:55 PM)] FileManager: buildJar: adding sikulixcontent at Lib
+[debug (8/16/16 4:50:55 PM)] FileManager: buildJar: completed
+[debug (8/16/16 4:50:55 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulixapi.jar
+[debug (8/16/16 4:50:55 PM)] RunSetup: adding needed stuff to sikulix.jar
+[debug (8/16/16 4:50:55 PM)] FileManager: buildJar: sikulixtemp.jar
+[debug (8/16/16 4:50:55 PM)] FileManager: buildJar: adding: sikulix.jar
+[debug (8/16/16 4:50:56 PM)] FileManager: buildJar: adding: sikulixapi.jar
+[debug (8/16/16 4:51:01 PM)] FileManager: buildJar: adding: sikulixjython.jar
+[debug (8/16/16 4:51:10 PM)] FileManager: buildJar: adding: sikulixlibswin.jar
+[debug (8/16/16 4:51:12 PM)] FileManager: buildJar: completed
+[debug (8/16/16 4:51:12 PM)] RunSetup: renaming sikulixtemp.jar to target jar: sikulix.jar
+[debug (8/16/16 4:51:12 PM)] RunSetup: processing commandfiles
+[debug (8/16/16 4:51:12 PM)] RunSetup: Trying to run functional test: JAVA-API
+[debug (8/16/16 4:51:12 PM)] RunTimeSETUP: addToClasspath:
+file:/C:/Users/femisimon/Downloads/sikulixapi.jar
+[debug (8/16/16 4:51:12 PM)] RunSetup: trying to run org.sikuli.script.Sikulix.testSetup()
+[debug (8/16/16 4:51:12 PM)] RunSetup: class found: class org.sikuli.script.Sikulix
+[debug (8/16/16 4:51:12 PM)] RunSetup: getMethod: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (8/16/16 4:51:17 PM)] RunSetup: invoke: public static boolean org.sikuli.script.Sikulix.testSetup()
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: exists libs folder at: C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixLibs_201510061722
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: libs folder empty or has wrong content
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: now exporting libs
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: libs to export are at:
+jar:file:/C:/Users/femisimon/Downloads/sikulixapi.jar!/sikulixlibs/windows/libs64
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: resourceList: enter
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: resourceLocation: (class org.sikuli.setup.RunSetup) /sikulixlibs/windows/libs64
+[debug (8/16/16 4:51:17 PM)] RunTimeSETUP: resourceList: having jar: jar:file:/C:/Users/femisimon/Downloads/sikulixapi.jar!/sikulixlibs/windows/libs64
+[debug (8/16/16 4:51:18 PM)] RunTimeSETUP: files exported: 17 from: /sikulixlibs/windows/libs64 to:
+ C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixLibs_201510061722
+[debug (8/16/16 4:51:18 PM)] RunTimeSETUP: addToWindowsSystemPath: added to systempath:
+C:\Users\femisimon\AppData\Roaming\Sikulix\SikulixLibs_201510061722
+[debug (8/16/16 4:51:18 PM)] RunTimeSETUP: checkJavaUsrPath: added to ClassLoader.usrPaths
+[debug (8/16/16 4:51:18 PM)] RunTimeSETUP: loadLib: VisionProxy.dll
+[debug (8/16/16 4:51:18 PM)] Mouse: init
+[debug (8/16/16 4:51:18 PM)] KeyBoard: init
+[debug (8/16/16 4:51:19 PM)] Image: BufferedImage: (100, 100)
+[debug (8/16/16 4:51:19 PM)] Finder: Image: __BufferedImage__: (100x100)
+[debug (8/16/16 4:51:19 PM)] Sikulix: testSetup: Finder setup with image worked
+[debug (8/16/16 4:51:19 PM)] FileManager: tempfile create:
+C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-1166991204412959490.png
+[debug (8/16/16 4:51:19 PM)] Image: loaded: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png (file:/C:/Users/femisimon/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png)
+[debug (8/16/16 4:51:19 PM)] Image: cached: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png (29 KB) (# 1 KB 29 -- 0 % of 64 MB)
+[debug (8/16/16 4:51:19 PM)] Sikulix: testSetup: Finder setup with image file worked
+[debug (8/16/16 4:51:19 PM)] Region: find: waiting 3.0 secs for C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-1166991204412959490.png to appear in S(0)[0,0 1440x900]
+[debug (8/16/16 4:51:19 PM)] Image: reused: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png (file:/C:/Users/femisimon/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png)
+[debug (8/16/16 4:51:19 PM)] Region: find: C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-1166991204412959490.png has appeared 
+at M[0,0 100x100]@S(S(0)[0,0 1440x900]) S:1.00 C:50,50 [219 msec]
+[debug (8/16/16 4:51:19 PM)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (8/16/16 4:51:19 PM)] Region: find: waiting 3.0 secs for C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-1166991204412959490.png to appear in S(0)[0,0 1440x900]
+[debug (8/16/16 4:51:19 PM)] Image: reused: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png (file:/C:/Users/femisimon/AppData/Local/Temp/Sikulix_774524156/sikuli-1166991204412959490.png)
+[debug (8/16/16 4:51:19 PM)] Region: checkLastSeen: still there
+[debug (8/16/16 4:51:19 PM)] Region: find: C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-1166991204412959490.png has appeared 
+at M[0,0 100x100]@S(S(0)[0,0 1440x900]) S:1.00 C:50,50 [47 msec]
+[debug (8/16/16 4:51:19 PM)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (8/16/16 4:51:25 PM)] Sikulix: testSetup: Finder.find: worked
+[debug (8/16/16 4:51:25 PM)] RunTimeSETUP: addToClasspath:
+file:/C:/Users/femisimon/Downloads/sikulix.jar
+[debug (8/16/16 4:51:25 PM)] RunSetup: Jython: Trying to run functional test: running script statements via SikuliScript
+[debug (8/16/16 4:51:30 PM)] ScriptingSupport: initScriptingSupport: enter
+[debug (8/16/16 4:51:32 PM)] JythonSupport: init: starting
+[debug (8/16/16 4:51:32 PM)] JythonSupport: init: success
+[debug (8/16/16 4:51:32 PM)] JythonSupport: ***** Jython sys.path
+ 0: C:\Users\femisimon\Downloads\sikulixapi.jar\Lib
+ 1: C:\Users\femisimon\Downloads\Lib
+ 2: C:\Users\femisimon\Downloads\sikulix.jar\Lib
+ 3: __classpath__
+ 4: __pyclasspath__/
+[debug (8/16/16 4:51:33 PM)] JythonSupport: ***** Jython sys.path end
+[debug (8/16/16 4:51:33 PM)] Jython: sikuli: Sikuli: starting init
+[debug (8/16/16 4:51:33 PM)] RunTimeSETUP: loadLib: WinUtil.dll
+[debug (8/16/16 4:51:33 PM)] Jython: requested to use as default region: R[0,0 1440x900]@S(0)
+[debug (8/16/16 4:51:33 PM)] Jython: sikuli: Sikuli: ending init
+[debug (8/16/16 4:51:33 PM)] JythonScriptRunner: running Jython 2.7.0 
+[debug (8/16/16 4:51:33 PM)] ScriptingSupport: initScriptingSupport: added: jython
+[debug (8/16/16 4:51:33 PM)] ScriptingSupport: initScriptingSupport: exit with defaultrunner: jython (py)
+[debug (8/16/16 4:51:33 PM)] Jython: requested to use as default region: R[0,0 1440x900]@S(0)
+[debug (8/16/16 4:51:34 PM)] JythonScriptRunner: runPython: running statements
+[debug (8/16/16 4:51:34 PM)] Image: BufferedImage: (100, 100)
+[debug (8/16/16 4:51:34 PM)] Finder: Image: __BufferedImage__: (100x100)
+[debug (8/16/16 4:51:34 PM)] Sikulix: testSetup: Finder setup with image worked
+[debug (8/16/16 4:51:34 PM)] FileManager: tempfile create:
+C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-4268275435499778932.png
+[debug (8/16/16 4:51:34 PM)] Image: loaded: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png (file:/C:/Users/femisimon/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png)
+[debug (8/16/16 4:51:34 PM)] Image: cached: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png (29 KB) (# 2 KB 58 -- 0 % of 64 MB)
+[debug (8/16/16 4:51:34 PM)] Sikulix: testSetup: Finder setup with image file worked
+[debug (8/16/16 4:51:34 PM)] Region: find: waiting 3.0 secs for C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-4268275435499778932.png to appear in S(0)[0,0 1440x900]
+[debug (8/16/16 4:51:34 PM)] Image: reused: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png (file:/C:/Users/femisimon/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png)
+[debug (8/16/16 4:51:34 PM)] Region: find: C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-4268275435499778932.png has appeared 
+at M[0,0 100x100]@S(S(0)[0,0 1440x900]) S:1.00 C:50,50 [250 msec]
+[debug (8/16/16 4:51:34 PM)] Sikulix: testSetup: Screen.find(imagefile) worked
+[debug (8/16/16 4:51:34 PM)] Region: find: waiting 3.0 secs for C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-4268275435499778932.png to appear in S(0)[0,0 1440x900]
+[debug (8/16/16 4:51:34 PM)] Image: reused: C:/Users/FEMISI~1/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png (file:/C:/Users/femisimon/AppData/Local/Temp/Sikulix_774524156/sikuli-4268275435499778932.png)
+[debug (8/16/16 4:51:34 PM)] Region: checkLastSeen: still there
+[debug (8/16/16 4:51:34 PM)] Region: find: C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156\sikuli-4268275435499778932.png has appeared 
+at M[0,0 100x100]@S(S(0)[0,0 1440x900]) S:1.00 C:50,50 [62 msec]
+[debug (8/16/16 4:51:34 PM)] Sikulix: testSetup: repeated Screen.find(imagefile) worked
+[debug (8/16/16 4:51:36 PM)] Sikulix: testSetup: Finder.find: worked
+[debug (8/16/16 4:51:41 PM)] RunSetup: ... SikuliX Setup seems to have ended successfully ;-)
+[debug (8/16/16 4:51:41 PM)] RunTimeSETUP: final cleanup
+[debug (8/16/16 4:51:41 PM)] FileManager: deleteFileOrFolder:
+C:\Users\FEMISI~1\AppData\Local\Temp\Sikulix_774524156
