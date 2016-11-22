@@ -24,6 +24,7 @@ namespace MyCalculatorv1.Properties
             get
             {
                 //Adding comment on here to be able to test
+                //just adding another line of comment to introduce changes
                 return defaultInstance;
             }
         }
